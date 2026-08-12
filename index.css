@@ -69,12 +69,14 @@ span:hover {
     color: whitesmoke;
     margin: 0;
     text-align: start;
+    font-family: Consolas, 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
 }
 
 .normal-text {
     color: whitesmoke;
     font-size: 18px;
-    text-align: start;
+    text-align: start
+    margin: 10;
 }
 
 .footer-text {
