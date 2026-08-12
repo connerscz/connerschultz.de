@@ -75,3 +75,35 @@ span:hover {
   justify-content: center;
   width: 100%;
 }
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    color: whitesmoke;
+    margin: 0;
+}
+
+.normal-text {
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-items span {
+    font-size: 28px;
+}
+
+.footer-text {
+    margin: 0;
+}
