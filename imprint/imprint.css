@@ -63,7 +63,6 @@ span:hover {
     text-align: start;
     font-family: Consolas, 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
     overflow: hidden;
-    border-right: .15em solid orange;
     white-space: nowrap;
     letter-spacing: .15em;
     animation: typing 3.5s steps(16, end), blink-caret .5s step-end infinite;
