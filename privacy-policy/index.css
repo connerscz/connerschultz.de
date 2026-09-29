@@ -39,8 +39,8 @@ span:hover {
 }
 
 .footer {
-  margin-top: 250px;
-  bottom: 0;
+  margin-top: 64px;
+  padding-bottom: clamp(24px, 7vh, 64px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,18 +58,39 @@ span:hover {
 }
 
 .card {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.title h1 {
+.text {
+    width: 100%;
+    max-width: 760px;
+    padding: 64px 16px 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.text h2 {
     color: whitesmoke;
-    margin: 0 auto;
+    font-size: 20px;
+    margin: 2em 0 .5em;
+}
+
+.text ul {
+    padding-left: 1.5em;
+}
+
+.title h1 {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: clamp(1.25rem, 5.5vw, 2rem);
+    margin: 0 0 .5em;
     text-align: start;
     font-family: Consolas, 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
     overflow: hidden;
-    border-right: .15em solid orange;
     white-space: nowrap;
     letter-spacing: .15em;
     animation: typing 3.5s steps(16, end), blink-caret .5s step-end infinite;
@@ -77,11 +98,23 @@ span:hover {
 
 .normal-text {
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.7;
     text-align: start;
-    margin: 10px;
+    margin: 0 0 1em;
 }
 
 .footer-text {
     margin: 0;
+}
+
+.text a {
+    text-decoration: underline;
+    text-decoration-color: rgba(245, 245, 245, .5);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.text a:hover {
+    text-decoration-color: gray;
 }
