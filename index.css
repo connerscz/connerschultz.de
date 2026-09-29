@@ -67,22 +67,20 @@ span:hover {
 
 .title h1 {
     color: whitesmoke;
-    margin: 0 auto;
+    margin: 0;
     text-align: start;
     font-family: Consolas, 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     letter-spacing: .15em;
-    animation: typing 3.5s steps(16, end), blink-caret .5s step-end infinite;
+    width: calc(24 * (1ch + .15em));
+    animation: typing 3.5s steps(24, end), blink-caret .5s step-end infinite;
 }
 
 @keyframes typing {
     from {
         width: 0
-    }
-    to {
-        width: 100%
     }
 }
 
