@@ -6,9 +6,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: appleboy/ssh-action@v1
+      # pinned to the commit behind tag v1, so the action can't change unnoticed
+      - uses: appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2 # v1
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
+          # the deploy key on the server is restricted to exactly this command
           script: cd /var/www/connerschultz.de && git pull
