@@ -32,6 +32,15 @@ fonts/                      self-hosted Roboto Mono
 .github/workflows/          auto-deploy
 ```
 
+## Use of AI
+
+I built this site myself, but I used AI (Claude) as a helper along the way:
+
+- **Debugging and problem solving**, e.g. finding out why CSS wasn't applied or why the typing animation stuttered
+- **Some CSS changes**, e.g. the layout and formatting of the privacy policy page
+- **Server and security checks** for the setup behind the site
+- **Drafting texts**, such as the privacy policy and this README, which I reviewed and adjusted
+
 ## License
 
 The **code** (HTML, CSS, workflow) is licensed under the [MIT License](LICENSE).
