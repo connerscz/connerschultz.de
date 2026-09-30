@@ -1,4 +1,5 @@
 # MISC
 *.md
+!README.md
 
 #TEST 
