@@ -118,3 +118,21 @@ span:hover {
 .text a:hover {
     text-decoration-color: gray;
 }
+
+@media (max-width: 600px) {
+    body {
+        min-height: 100dvh;
+    }
+
+    .title h1 {
+        font-size: clamp(1rem, 5.5vw, 2rem);
+    }
+
+    .footer {
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+    }
+}

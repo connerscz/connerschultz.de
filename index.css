@@ -106,3 +106,26 @@ span:hover {
 .footer-text {
     margin: 0;
 }
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .title h1 {
+        font-size: 4.8vw;
+    }
+
+    .normal-text {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+    }
+}
